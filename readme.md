@@ -18,7 +18,7 @@ In case you fall behind, the basic installation steps are noted below:
 5.  To start an instance of Jupyter Lab, type `jupyter lab`.  Do not close this window!
 
 # Running streamlit
-After your repo is cloned and your environment is created, you can run the code!  The way you can do this is through opening a terminal via Jupyter lab and typing `streamlit run pengui.py`.  A window should pop up allowing you to see your UI!
+After your repo is cloned and your environment is created, you can run the code!  The way you can do this is through opening a terminal via Jupyter lab and typing `streamlit run penui.py`.  A window should pop up allowing you to see your UI!
 
 # In-class exercises
 Now that we have some experience using Streamlit, try one or more of the following tasks on your own:
