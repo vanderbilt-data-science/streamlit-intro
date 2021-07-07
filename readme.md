@@ -14,8 +14,9 @@ In case you fall behind, the basic installation steps are noted below:
 1. Clone this repository to your location of interest.  You can do this by opening up a command line (Windows: optimally by Anaconda Prompt, but Git Bash, or Bash via WSL can also suffice; OSX: Terminal app) and typing `git clone https://github.com/vanderbilt-data-science/streamlit-intro.git`.
 2. `cd` into your directory.  Using an Anaconda prompt (or terminal with Anaconda installed in OSX), type `conda env create -f environment.yml`.  When the installer asks for your approval to install the desired packages, type `y` and then press enter.
 3.  Your installation may not be immediate and may take some time.  Be patient.
-4.  After your installation completes, you should see a message about how to activate the environment.  Type `conda activate streamlit-env`.
-5.  To start an instance of Jupyter Lab, type `jupyter lab`.  Do not close this window!
+4.  If your installation fails **after** printing "Executing Transation...", this means your conda installs succeeded, but your pip installs have failed.  No problem!  Type: `conda activate streamlit-env` and press enter.  Then, type `pip install nbdev streamlit`.  You can skip the following step (#5) since you've already activated your environment!
+5.  After your installation completes, you should see a message about how to activate the environment.  Type `conda activate streamlit-env`.
+6.  To start an instance of Jupyter Lab, type `jupyter lab`.  Do not close this window!
 
 # Running streamlit
 After your repo is cloned and your environment is created, you can run the code!  The way you can do this is through opening a terminal via Jupyter lab and typing `streamlit run penui.py`.  A window should pop up allowing you to see your UI!
