@@ -1,7 +1,8 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vanderbilt-data-science/streamlit-intro)
 # streamlit-tutorial
 > An introduction to streamlit for DS projects
 
-In this workshop, we look over some of the basic functionality of streamlit for implementing interactive user applications in Python.  See below for the workshop outline and requirements
+In this workshop, we look over some of the basic functionality of streamlit for implementing interactive user applications in Python.  See below for the workshop outline and requirements.  Note that a Colab badge is provided for the workshop to explore the functionality of the notebooks while your virtual environment is created with streamlit.  Otherwise, we will be not be using Google Colab for the functionality here.
 
 # Pre-requisites
 This workshop requires the following:
