@@ -1,0 +1,17 @@
+name: streamlit-env
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - jupyter
+  - pip
+  - python=3.8
+  - scikit-learn
+  - jupyterlab=3.0.14
+  - plotly
+  - pandas=1.2.5
+  - seaborn
+  - matplotlib=3.3.4
+  - pip:
+    - nbdev==1.1.14
+    - streamlit==0.84.0
